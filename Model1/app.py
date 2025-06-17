@@ -689,7 +689,7 @@ def load_ml_model():
         model_file = "model.h5"
 
         # Path lokal untuk class_indices.json
-        class_indices_path = "class_indices.json"
+        class_indices_path = "Model1/class_indices.json"
 
         # Unduh model jika belum ada
         if not os.path.exists(model_file):
